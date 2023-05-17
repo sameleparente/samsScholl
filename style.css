@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: linear-gradient(to left, #0608dd, #00e4fd);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 60px; /* Adiciona espaçamento de 40px nos cantos esquerdo e direito */
+	height: 80px; /* Define a altura do cabeçalho */
+}
+
+.logo {
+	text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.item-menu {
+	margin-right: 40px;
+}
+
+.item-menu a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.item-menu a:hover {
+	border-bottom: 2px solid white;
+	transform: scale(1.05);
+}
+
+/* Estilos para a primeira seção */
+section:first-child {
+	display: flex;
+}
+
+.left-section {
+	flex: 1;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.right-section {
+	flex: 1;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+/* Estilos para a segunda seção */
+section:nth-child(2) {
+	display: flex;
+  background: linear-gradient(to left, #0608dd, #00e4fd);
+}
+
+.block {
+	flex: 1;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.block-title {
+	color: #84070d;
+  font-size: 23px;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.block-paragraph{
+  text-align: justify;
+
+}
+.teaching{
+  display: block;
+  max-width: 300%;
+  height: max-content;
+  margin: 0 auto;
+}
+
+.block:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para a terceira seção */
+.form-section {
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.form-title {
+	color: #203340;
+}
+
+form {
+	margin-top: 10px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	color: #203340;
+}
+
+form input[type="text"],
+form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+form input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #e71c26;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Estilos para a quarta seção */
+.map-section {
+	padding: 20px;
+  align-content: center;
+}
+
